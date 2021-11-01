@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[Inventory]
+(
+	[CarId] INT NOT NULL PRIMARY KEY IDENTITY,
+	[Make] VARCHAR(50) NULL,
+	[Color] VARCHAR(50) NULL
+)
